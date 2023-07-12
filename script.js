@@ -45,7 +45,7 @@ var barChartOptions = {
       distributed: true,
       borderRadius: 4,
       horizontal: false,
-      columnWidth: '40%',
+      columnWidth: '80%',
     }
   },
   dataLabels: {
@@ -55,7 +55,7 @@ var barChartOptions = {
     show: false
   },
   xaxis: {
-    categories: ["Laptop", "Phone", "Monitor", "Headphones", "Camera"],
+    categories: ["Week 1", "Week2", "Week3", "Week4",],
   },
   yaxis: {
     title: {
@@ -71,11 +71,11 @@ barChart.render();
 // AREA CHART
 var areaChartOptions = {
   series: [{
-    name: 'Purchase Orders',
-    data: [31, 40, 28, 51, 42, 109, 100]
+    name: 'Labor',
+    data: [4124.0,3648,2310,0.0,0.0]
   }, {
-    name: 'Sales Orders',
-    data: [11, 32, 45, 32, 34, 52, 41]
+    name: 'Sales',
+    data: [8484.19,9459.32,4028.75,0,0]
   }],
   chart: {
     height: 350,
@@ -91,22 +91,22 @@ var areaChartOptions = {
   stroke: {
     curve: 'smooth'
   },
-  labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"],
+  labels: ["June 24-30" ,"July 1-7", "July 8-14", "July 15-21", "July 22-31"],
   markers: {
     size: 0
   },
   yaxis: [
     {
       title: {
-        text: 'Purchase Orders',
+        text: 'Dollars',
       },
     },
-    {
-      opposite: true,
-      title: {
-        text: 'Sales Orders',
-      },
-    },
+    // {
+    //   opposite: true,
+    //   title: {
+    //     text: '',
+    //   },
+    // },
   ],
   tooltip: {
     shared: true,
