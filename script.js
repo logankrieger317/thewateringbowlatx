@@ -39,9 +39,6 @@ var barChartOptions = {
   },
   colors: [
     "#246dec",
-    "#cc3c43",
-    "#367952",
-    "#f5b74f",
     "#4f35a1"
   ],
   plotOptions: {
