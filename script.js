@@ -21,13 +21,17 @@ function closeSidebar() {
 
 // ---------- CHARTS ----------
 
-// BAR CHART
+// AREA CHART
 var barChartOptions = {
   series: [{
-    data: [10, 8, 6, 4, 2]
+    name: 'Labor',
+    data: [695,754,476,246,607,415,455,741,681,457,431,]
+  }, {
+    name: 'Sales',
+    data: [1535.96,1465.56,1341.21,854.88,806.62,1194.01,2261.08,1818.5,482.5,599.5,]
   }],
   chart: {
-    type: 'bar',
+    type: 'area',
     height: 350,
     toolbar: {
       show: false
@@ -55,11 +59,12 @@ var barChartOptions = {
     show: false
   },
   xaxis: {
-    categories: ["Week 1", "Week2", "Week3", "Week4",],
+    categories: ["7/1","7/2","7/3","7/4","7/5","7/6","7/7","7/8","7/9","7/10","7/11","7/12","7/13","7/14","7/15","7/16","7/17","7/18","7/19","7/20","7/21","7/22","7/23","7/24","7/25","7/26","7/27","7/28","7/29","7/30","7/31"
+   ,],
   },
   yaxis: {
     title: {
-      text: "Count"
+      text: "Dollars"
     }
   }
 };
