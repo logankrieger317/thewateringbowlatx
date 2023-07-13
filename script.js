@@ -38,8 +38,8 @@ var barChartOptions = {
     },
   },
   colors: [
-    "#246dec",
-    "#4f35a1"
+    "#4f35a1",
+    "#246dec"
   ],
   plotOptions: {
     bar: {
