@@ -74,10 +74,10 @@ barChart.render();
 var areaChartOptions = {
   series: [{
     name: 'Labor',
-    data: [4124.0,3648,3776,2921.82,0.0]
+    data: [4124.0,3648,3776,1696,0.0]
   }, {
     name: 'Sales',
-    data: [8484.19,9459.32,8705.00,1696,0]
+    data: [8484.19,9459.32,8705.00,2921.82,0]
   }],
   chart: {
     height: 350,
