@@ -126,10 +126,10 @@ areaChart.render();
 var monthlyChartOptions = {
   series: [{
     name: 'Labor',
-    data: [1,2,3,4,5]
+    data: [23617.83,17695,17109]
   }, {
     name: 'Sales',
-    data: [6,7,8,9,10]
+    data: [34818.35, 38071.82, 28445.39 ]
   }],
   chart: {
     height: 350,
@@ -145,7 +145,7 @@ var monthlyChartOptions = {
   stroke: {
     curve: 'smooth'
   },
-  labels: [ "June", "July", "August", "September","October"],
+  labels: [ "June", "July", "August", "September"],
   markers: {
     size: 0
   },
