@@ -119,11 +119,11 @@ var areaChartOptions = {
   }
 };
 
-var areaChart = new ApexCharts(document.querySelector("#monthly-chart"), areaChartOptions);
+var areaChart = new ApexCharts(document.querySelector("#bar-chart"), areaChartOptions);
 areaChart.render();
 
 // AREA CHART
-var areaChartOptions = {
+var monthlyChartOptions = {
   series: [{
     name: 'Labor',
     data: [,0]
@@ -168,5 +168,5 @@ var areaChartOptions = {
   }
 };
 
-var areaChart = new ApexCharts(document.querySelector("#monthly-chart"), areaChartOptions);
-areaChart.render();
+var monthlyChart = new ApexCharts(document.querySelector("#monthly-chart"), monthlyChartOptions);
+monthlyChart.render();
