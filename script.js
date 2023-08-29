@@ -126,10 +126,10 @@ areaChart.render();
 var monthlyChartOptions = {
   series: [{
     name: 'Labor',
-    data: [,0]
+    data: [1,2,3,4,5]
   }, {
     name: 'Sales',
-    data: [6]
+    data: [6,7,8,9,10]
   }],
   chart: {
     height: 350,
