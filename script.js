@@ -89,7 +89,7 @@ var areaChartOptions = {
       show: false,
     },
   },
-  colors: ["#4f35a1", "#246dec", "#4f35a1"],
+  colors: ["#4f35a1", "#246dec", "#006666"],
   dataLabels: {
     enabled: false,
   },
