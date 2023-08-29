@@ -130,6 +130,9 @@ var monthlyChartOptions = {
   }, {
     name: 'Sales',
     data: [34818.35, 38071.82, 28445.39 ]
+  },{
+    name: 'Profit',
+    data: [16351.35 ,20376.82 ,14200.09 ]
   }],
   chart: {
     height: 350,
