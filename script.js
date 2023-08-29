@@ -37,10 +37,10 @@ var barChartOptions = {
       show: false
     },
   },
-  colors: [
-    "#4f35a1",
-    "#246dec"
-  ],
+  colors: [ "#4f35a1", "#246dec"],
+  dataLabels: {
+    enabled: false,
+  },
   plotOptions: {
     bar: {
       distributed: true,
@@ -89,7 +89,7 @@ var areaChartOptions = {
       show: false,
     },
   },
-  colors: ["#4f35a1", "#246dec", "#006666"],
+  colors: ["#4f35a1", "#246dec"],
   dataLabels: {
     enabled: false,
   },
@@ -141,7 +141,7 @@ var monthlyChartOptions = {
       show: false,
     },
   },
-  colors: ["#4f35a1", "#246dec"],
+  colors: ["#4f35a1", "#246dec","#006666"],
   dataLabels: {
     enabled: false,
   },
