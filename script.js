@@ -96,7 +96,7 @@ var areaChartOptions = {
   stroke: {
     curve: 'smooth'
   },
-  labels: ["June 24-30" ,"July 1-7", "July 8-14", "July 15-21", "July 22-31"],
+  labels: [ "August 1-5", "August 6-12", "August 13-19", "August 20-26","August 27-31"],
   markers: {
     size: 0
   },
