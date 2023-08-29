@@ -121,3 +121,52 @@ var areaChartOptions = {
 
 var areaChart = new ApexCharts(document.querySelector("#area-chart"), areaChartOptions);
 areaChart.render();
+
+// AREA CHART
+var areaChartOptions = {
+  series: [{
+    name: 'Labor',
+    data: [3323,2902,3667,2840,0]
+  }, {
+    name: 'Sales',
+    data: [6473.53,5659.35,5115.51,4366.81,0.0]
+  }],
+  chart: {
+    height: 350,
+    type: 'area',
+    toolbar: {
+      show: false,
+    },
+  },
+  colors: ["#4f35a1", "#246dec"],
+  dataLabels: {
+    enabled: false,
+  },
+  stroke: {
+    curve: 'smooth'
+  },
+  labels: [ "August 1-5", "August 6-12", "August 13-19", "August 20-26","August 27-31"],
+  markers: {
+    size: 0
+  },
+  yaxis: [
+    {
+      title: {
+        text: 'Dollars',
+      },
+    },
+    // {
+    //   opposite: true,
+    //   title: {
+    //     text: '',
+    //   },
+    // },
+  ],
+  tooltip: {
+    shared: true,
+    intersect: false,
+  }
+};
+
+var areaChart = new ApexCharts(document.querySelector("#area-chart"), areaChartOptions);
+areaChart.render();
