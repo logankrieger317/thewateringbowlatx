@@ -208,7 +208,7 @@ var plChartOptions = {
 
   chart: {
     height: 350,
-    type: 'area',
+    type: 'bar',
     toolbar: {
       show: false,
     },
