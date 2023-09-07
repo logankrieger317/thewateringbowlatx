@@ -21,7 +21,7 @@ function closeSidebar() {
 
 // ---------- CHARTS ----------
 
-// AREA CHART
+// daily sales vs labor  CHART
 var barChartOptions = {
   series: [{
     name: 'Labor',
@@ -73,7 +73,7 @@ var barChart = new ApexCharts(document.querySelector("#bar-chart"), barChartOpti
 barChart.render();
 
 
-// AREA CHART
+// Monthly sales vs Labor  CHART
 var areaChartOptions = {
   series: [{
     name: 'Labor',
@@ -122,7 +122,7 @@ var areaChartOptions = {
 var areaChart = new ApexCharts(document.querySelector("#area-chart"), areaChartOptions);
 areaChart.render();
 
-// AREA CHART
+// month to month CHART
 var monthlyChartOptions = {
   series: [{
     name: 'Labor',
@@ -149,6 +149,78 @@ var monthlyChartOptions = {
     curve: 'smooth'
   },
   labels: [ "June", "July", "August", "September"],
+  markers: {
+    size: 0
+  },
+  yaxis: [
+    {
+      title: {
+        text: 'Dollars',
+      },
+    },
+    // {
+    //   opposite: true,
+    //   title: {
+    //     text: '',
+    //   },
+    // },
+  ],
+  tooltip: {
+    shared: true,
+    intersect: false,
+  }
+};
+
+var monthlyChart = new ApexCharts(document.querySelector("#monthly-chart"), monthlyChartOptions);
+monthlyChart.render();
+
+// P&L Chart CHART
+var monthlyChartOptions = {
+  series: [{
+    name: 'Labor',
+  data: [100000 /* placeholder*/]
+  }, {
+    name: 'Sales',
+    data: [100000 /* placeholder*/]
+  },{
+    name: 'Profit',
+    data: [100000 /* placeholder*/ ]
+  },{
+    name: 'COGS',
+    data: [100000 /* placeholder*/ ]
+  },{
+    name: 'Rent',
+    data: [100000 /* placeholder*/ ]
+  },{
+    name: 'Utilities',
+    data: [100000 /* placeholder*/ ]
+  },{
+    name: 'Insurance',
+    data: [100000 /* placeholder*/ ]
+  },{
+    name: 'Marketing',
+    data: [100000 /* placeholder*/ ]
+  },{
+    name: 'Events',
+    data: [100000 /* placeholder*/ ]
+  }],
+
+
+  chart: {
+    height: 350,
+    type: 'area',
+    toolbar: {
+      show: false,
+    },
+  },
+  colors: ["#4f35a1", "#246dec","#006666"],
+  dataLabels: {
+    enabled: false,
+  },
+  stroke: {
+    curve: 'smooth'
+  },
+  labels: [ "some label here","some label also here", "some label here too"],
   markers: {
     size: 0
   },
