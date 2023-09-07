@@ -243,5 +243,5 @@ var plchartChartOptions = {
   }
 };
 
-var plChart = new ApexCharts(document.querySelector("#monthly-chart"),plChartOptions);
+var plChart = new ApexCharts(document.querySelector("#pl-chart"),plChartOptions);
 plChart.render();
