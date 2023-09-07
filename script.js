@@ -175,7 +175,7 @@ var monthlyChart = new ApexCharts(document.querySelector("#monthly-chart"), mont
 monthlyChart.render();
 
 // P&L Chart CHART
-var plchartChartOptions = {
+var plChartOptions = {
   series: [{
     name: 'Labor',
   data: [100000 /* placeholder*/]
