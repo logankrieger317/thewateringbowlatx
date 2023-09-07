@@ -126,13 +126,13 @@ areaChart.render();
 var monthlyChartOptions = {
   series: [{
     name: 'Labor',
-    data: [23617.83,17695,15401,0]
+    data: [23617.83,17695,19510,0]
   }, {
     name: 'Sales',
-    data: [34818.35, 38071.82, 27075.71,0 ]
+    data: [34818.35, 38071.82, 33897.59,0 ]
   },{
     name: 'Profit',
-    data: [16351.35 ,20376.82 ,11674.71,0 ]
+    data: [16351.35 ,20376.82,14387.59,0 ]
   }],
   chart: {
     height: 350,
