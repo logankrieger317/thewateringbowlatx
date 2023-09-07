@@ -220,7 +220,7 @@ var plChartOptions = {
   stroke: {
     curve: 'smooth'
   },
-  labels: [ "some label here","some label also here", "some label here too"],
+  labels: [ "August"],
   markers: {
     size: 0
   },
