@@ -174,89 +174,89 @@ var monthlyChartOptions = {
 var monthlyChart = new ApexCharts(document.querySelector("#monthly-chart"), monthlyChartOptions);
 monthlyChart.render();
 
-// P&L Chart CHART
-var plChartOptions = {
+// // P&L Chart CHART
+// var plChartOptions = {
 
-// function totalProfit() = {  
-// const cogs = 2800;
-// const labor = 18647;
-// const rent = 7500;
-// const utilities = 100;
-// const insurance = 150;
-// const marketing = 50;
-// const events = 175;
-// const sales = 30327.88;
+// // function totalProfit() = {  
+// // const cogs = 2800;
+// // const labor = 18647;
+// // const rent = 7500;
+// // const utilities = 100;
+// // const insurance = 150;
+// // const marketing = 50;
+// // const events = 175;
+// // const sales = 30327.88;
 
-// const profit = (sales - cogs - labor - rent - utilities - insurance - marketing - events);
-// return profit;
+// // const profit = (sales - cogs - labor - rent - utilities - insurance - marketing - events);
+// // return profit;
+// // };
+
+//   series: [{
+//     name: 'Labor',
+//   data: [labor /* placeholder*/]
+//   }, {
+//     name: 'Sales',
+//     data: [sales /* placeholder*/]
+//   },{
+//     name: 'Profit',
+//     data: [profit /* placeholder*/ ]
+//   },{
+//     name: 'COGS',
+//     data: [cogs /* placeholder*/ ]
+//   },{
+//     name: 'Rent',
+//     data: [rent /* placeholder*/ ]
+//   },{
+//     name: 'Utilities',
+//     data: [utilities /* placeholder*/ ]
+//   },{
+//     name: 'Insurance',
+//     data: [insurance /* placeholder*/ ]
+//   },{
+//     name: 'Marketing',
+//     data: [marketing /* placeholder*/ ]
+//   },{
+//     name: 'Events',
+//     data: [events /* placeholder*/ ]
+//   }],
+
+
+//   chart: {
+//     height: 350,
+//     type: 'bar',
+//     toolbar: {
+//       show: false,
+//     },
+//   },
+//   colors: ["#4f35a1", "#246dec","#006666",'#ff0000','#ff9900','#ffff00','#00ff00','#00ffff','#ff00ff'],
+//   dataLabels: {
+//     enabled: false,
+//   },
+//   stroke: {
+//     curve: 'smooth'
+//   },
+//   labels: [ "August"],
+//   markers: {
+//     size: 0
+//   },
+//   yaxis: [
+//     {
+//       title: {
+//         text: 'Dollars',
+//       },
+//     },
+//     // {
+//     //   opposite: true,
+//     //   title: {
+//     //     text: '',
+//     //   },
+//     // },
+//   ],
+//   tooltip: {
+//     shared: true,
+//     intersect: false,
+//   }
 // };
 
-  series: [{
-    name: 'Labor',
-  data: [labor /* placeholder*/]
-  }, {
-    name: 'Sales',
-    data: [sales /* placeholder*/]
-  },{
-    name: 'Profit',
-    data: [profit /* placeholder*/ ]
-  },{
-    name: 'COGS',
-    data: [cogs /* placeholder*/ ]
-  },{
-    name: 'Rent',
-    data: [rent /* placeholder*/ ]
-  },{
-    name: 'Utilities',
-    data: [utilities /* placeholder*/ ]
-  },{
-    name: 'Insurance',
-    data: [insurance /* placeholder*/ ]
-  },{
-    name: 'Marketing',
-    data: [marketing /* placeholder*/ ]
-  },{
-    name: 'Events',
-    data: [events /* placeholder*/ ]
-  }],
-
-
-  chart: {
-    height: 350,
-    type: 'bar',
-    toolbar: {
-      show: false,
-    },
-  },
-  colors: ["#4f35a1", "#246dec","#006666",'#ff0000','#ff9900','#ffff00','#00ff00','#00ffff','#ff00ff'],
-  dataLabels: {
-    enabled: false,
-  },
-  stroke: {
-    curve: 'smooth'
-  },
-  labels: [ "August"],
-  markers: {
-    size: 0
-  },
-  yaxis: [
-    {
-      title: {
-        text: 'Dollars',
-      },
-    },
-    // {
-    //   opposite: true,
-    //   title: {
-    //     text: '',
-    //   },
-    // },
-  ],
-  tooltip: {
-    shared: true,
-    intersect: false,
-  }
-};
-
-var plChart = new ApexCharts(document.querySelector("#pl-chart"),plChartOptions);
-plChart.render();
+// var plChart = new ApexCharts(document.querySelector("#pl-chart"),plChartOptions);
+// plChart.render();
