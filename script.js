@@ -176,17 +176,20 @@ monthlyChart.render();
 
 // P&L Chart CHART
 var plChartOptions = {
-  
-const cogs = 2800;
-const labor = 18647;
-const rent = 7500;
-const utilities = 100;
-const insurance = 150;
-const marketing = 50;
-const events = 175;
-const sales = 30327.88;
 
-const profit = sales - cogs - labor - rent - utilities - insurance - marketing - events;
+// function totalProfit() = {  
+// const cogs = 2800;
+// const labor = 18647;
+// const rent = 7500;
+// const utilities = 100;
+// const insurance = 150;
+// const marketing = 50;
+// const events = 175;
+// const sales = 30327.88;
+
+// const profit = (sales - cogs - labor - rent - utilities - insurance - marketing - events);
+// return profit;
+// };
 
   series: [{
     name: 'Labor',
