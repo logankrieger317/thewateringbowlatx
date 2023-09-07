@@ -176,33 +176,45 @@ monthlyChart.render();
 
 // P&L Chart CHART
 var plChartOptions = {
+  
+const cogs = 2800;
+const labor = 18647;
+const rent = 7500;
+const utilities = 100;
+const insurance = 150;
+const marketing = 50;
+const events = 175;
+const sales = 30327.88;
+
+const profit = sales - cogs - labor - rent - utilities - insurance - marketing - events;
+
   series: [{
     name: 'Labor',
-  data: [18647 /* placeholder*/]
+  data: [labor /* placeholder*/]
   }, {
     name: 'Sales',
-    data: [30327.88 /* placeholder*/]
+    data: [sales /* placeholder*/]
   },{
     name: 'Profit',
-    data: [15250.59 /* placeholder*/ ]
+    data: [profit /* placeholder*/ ]
   },{
     name: 'COGS',
-    data: [2800 /* placeholder*/ ]
+    data: [cogs /* placeholder*/ ]
   },{
     name: 'Rent',
-    data: [7500 /* placeholder*/ ]
+    data: [rent /* placeholder*/ ]
   },{
     name: 'Utilities',
-    data: [100 /* placeholder*/ ]
+    data: [utilities /* placeholder*/ ]
   },{
     name: 'Insurance',
-    data: [500 /* placeholder*/ ]
+    data: [insurance /* placeholder*/ ]
   },{
     name: 'Marketing',
-    data: [50 /* placeholder*/ ]
+    data: [marketing /* placeholder*/ ]
   },{
     name: 'Events',
-    data: [175 /* placeholder*/ ]
+    data: [events /* placeholder*/ ]
   }],
 
 
