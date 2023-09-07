@@ -187,7 +187,7 @@ monthlyChart.render();
 // // const events = 175;
 // // const sales = 30327.88;
 
-// // const profit = (sales - cogs - labor - rent - utilities - insurance - marketing - events);
+// // const profit = ((cogs - labor - rent - utilities - insurance - marketing - events)-sales);
 // // return profit;
 // // };
 
