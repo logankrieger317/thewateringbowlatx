@@ -213,7 +213,7 @@ var plChartOptions = {
       show: false,
     },
   },
-  colors: ["#4f35a1", "#246dec","#006666"],
+  colors: ["#4f35a1", "#246dec","#006666",'#ff0000','#ff9900','#ffff00','#00ff00','#00ffff','#ff00ff'],
   dataLabels: {
     enabled: false,
   },
