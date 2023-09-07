@@ -178,31 +178,31 @@ monthlyChart.render();
 var plChartOptions = {
   series: [{
     name: 'Labor',
-  data: [100000 /* placeholder*/]
+  data: [18647 /* placeholder*/]
   }, {
     name: 'Sales',
-    data: [100000 /* placeholder*/]
+    data: [30327.88 /* placeholder*/]
   },{
     name: 'Profit',
-    data: [100000 /* placeholder*/ ]
+    data: [15250.59 /* placeholder*/ ]
   },{
     name: 'COGS',
-    data: [100000 /* placeholder*/ ]
+    data: [2800 /* placeholder*/ ]
   },{
     name: 'Rent',
-    data: [100000 /* placeholder*/ ]
+    data: [7500 /* placeholder*/ ]
   },{
     name: 'Utilities',
-    data: [100000 /* placeholder*/ ]
+    data: [100 /* placeholder*/ ]
   },{
     name: 'Insurance',
-    data: [100000 /* placeholder*/ ]
+    data: [500 /* placeholder*/ ]
   },{
     name: 'Marketing',
-    data: [100000 /* placeholder*/ ]
+    data: [50 /* placeholder*/ ]
   },{
     name: 'Events',
-    data: [100000 /* placeholder*/ ]
+    data: [175 /* placeholder*/ ]
   }],
 
 
